@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Source Sans Pro';
+}
+
+body {
+  background-color: #374046;
+}
+
+body section.to-do-app {
+  width: 100%;
+  height: 100vh;
+  padding: 140px 0;
+  background-color: #374046;
+}
+
+body section.to-do-app div.wrapper {
+  width: 400px;
+  background-color: #00BCD4;
+  border-radius: 10px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  margin: 0 auto 50px;
+}
+
+body section.to-do-app div.wrapper div.header {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #0097A7;
+  border-radius: 10px 10px 0 0;
+}
+
+body section.to-do-app div.wrapper div.ico {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 5rem;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body section.to-do-app div.wrapper div.ico i {
+  color: #FF5722;
+}
+
+body section.to-do-app div.wrapper div.ico .coloured {
+  color: #00BCD4;
+}
+
+body section.to-do-app div.wrapper form.searchForm {
+  margin: 0 20px 10px;
+}
+
+body section.to-do-app div.wrapper form.searchForm input.searchInput {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  padding: 8px 10px;
+}
+
+body section.to-do-app div.wrapper h1 {
+  font-size: 1rem;
+  margin: 0 28px 10px;
+  font-weight: 400;
+}
+
+body section.to-do-app div.wrapper h1 span {
+  font-weight: 700;
+}
+
+body section.to-do-app div.wrapper ul {
+  padding: 25px 0;
+  background-color: #fff;
+  list-style: none;
+  border-radius: 5px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body section.to-do-app div.wrapper ul div.info {
+  text-align: center;
+  color: #FF5722;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+  font-size: 1.2em;
+}
+
+body section.to-do-app div.wrapper ul li.task {
+  position: relative;
+  margin: 10px 20px;
+  padding: 10px 10px;
+  background-color: #00BCD4;
+  border-radius: 11px;
+  font-size: 1em;
+  -webkit-box-shadow: 8px 7px 10px -7px rgba(0, 0, 0, 0.35);
+          box-shadow: 8px 7px 10px -7px rgba(0, 0, 0, 0.35);
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+body section.to-do-app div.wrapper ul li.task span.date-span {
+  width: 20%;
+  margin-right: 10px;
+  font-size: .8em;
+  color: #f7f7f7;
+}
+
+body section.to-do-app div.wrapper ul li.task button {
+  position: absolute;
+  right: 1%;
+  bottom: 4px;
+  padding: 1px 5px;
+  margin-left: 10px;
+  background-color: #FF5722;
+  border: none;
+  color: #fff;
+  font-size: .8em;
+  border-radius: 15px;
+  line-height: 15px;
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body section.to-do-app div.wrapper ul li.task button:hover {
+  color: #FF5722;
+  background-color: #fff;
+}
+
+body section.to-do-app div.wrapper form.addForm {
+  display: inline-block;
+  margin: 10px 20px 10px 50px;
+  padding: 10px 0 0;
+}
+
+body section.to-do-app div.wrapper form.addForm input.addInput {
+  height: 20px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  padding: 15px 10px;
+}
+
+body section.to-do-app div.wrapper form.addForm button.addButton {
+  padding: 7px 15px;
+  margin-left: 45px;
+  background-color: #FF5722;
+  border: 2px solid #FF5722;
+  color: #fff;
+  border-radius: 5px;
+  font-family: 'Source Sans Pro';
+  text-transform: uppercase;
+  font-weight: 700;
+  -webkit-transition: .2s;
+  transition: .2s;
+  cursor: pointer;
+}
+
+body section.to-do-app div.wrapper form.addForm button.addButton:hover {
+  color: #FF5722;
+  background-color: #fff;
+}
+
+body section.to-do-app div.wrapper form.addForm .removeAllBtn {
+  padding: 7px 15px;
+  margin: 20px 0 10px 100px;
+  background-color: #FF5722;
+  border: 2px solid #FF5722;
+  color: #fff;
+  border-radius: 5px;
+  font-family: 'Source Sans Pro';
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+body section.to-do-app div.wrapper form.addForm .removeAllBtn:hover {
+  color: #FF5722;
+  background-color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
